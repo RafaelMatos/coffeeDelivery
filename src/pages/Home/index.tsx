@@ -1,3 +1,8 @@
+import { IntroItens } from './components/Intro'
 export function Home() {
-  return <div>Home</div>
+  return (
+    <div>
+      <IntroItens />
+    </div>
+  )
 }
