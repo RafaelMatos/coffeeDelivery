@@ -6,6 +6,10 @@ export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 5;
   > div {
     display: flex;
     align-items: center;
@@ -26,37 +30,7 @@ export const HeaderContainer = styled.header`
     line-height: 130;
     /* flex-direction: row; */
 
-    a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0.5rem;
-      border-radius: 5px;
-      text-decoration: none;
-      gap: 0.25rem;
-      height: 2.5rem;
-
-      transition: 0.5s;
-    }
-    .location {
-      background: ${(props) => props.theme['purple-200']};
-      color: ${(props) => props.theme['purple-700']};
-
-      &:hover {
-        background: ${(props) => props.theme['purple-400']};
-        color: ${(props) => props.theme['purple-200']};
-      }
-    }
-    .cart {
-      background: ${(props) => props.theme['orange-200']};
-      color: ${(props) => props.theme['orange-700']};
-
-      &:hover {
-        background: ${(props) => props.theme['orange-400']};
-        color: ${(props) => props.theme['orange-200']};
-      }
-    }
-  }
+    
 `
 interface HeaderButtonProps {
   variant: 'purple' | 'orange'
