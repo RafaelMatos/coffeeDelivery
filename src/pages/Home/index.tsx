@@ -1,8 +1,11 @@
 import { IntroItens } from './components/Intro'
-export function Home() {
+import { OurCoffees } from './components/OurCoffees'
+import { HomeContainer } from './styles'
+export function HomePage() {
   return (
-    <div>
+    <HomeContainer className="container">
       <IntroItens />
-    </div>
+      <OurCoffees />
+    </HomeContainer>
   )
 }
