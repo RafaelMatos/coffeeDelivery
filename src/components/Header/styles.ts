@@ -3,34 +3,23 @@ import styled, { css } from 'styled-components'
 export const HeaderContainer = styled.header`
   width: 100%;
   height: 6.5rem;
+  background: ${({ theme }) => theme.colors['base-background']};
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   left: 0;
   z-index: 5;
   > div {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-
-  nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0;
-    gap: 0.5rem;
-    height: 2.5rem;
-
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 130;
-    /* flex-direction: row; */
-
-    
 `
 interface HeaderButtonProps {
   variant: 'purple' | 'orange'
@@ -52,6 +41,7 @@ export const HeaderButton = styled.button<HeaderButtonProps>`
   border-radius: 6px;
   border: none;
   padding: 0 0.5rem;
+  position: relative;
   font-size: 14px;
 
   ${({ variant }) => css`
