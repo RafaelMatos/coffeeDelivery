@@ -6,7 +6,6 @@ export const CompleteOrderFormContainer = styled.div`
   flex-direction: column;
   gap: 0.75rem;
   width: 40rem;
-  border: 1px solid green;
 `
 export const FormSectionContainer = styled(SectionBaseStyle)`
   display: flex;

@@ -10,7 +10,9 @@ export function CompleteOrderForm() {
   const { colors } = useTheme()
   return (
     <CompleteOrderFormContainer>
-      <TitleText>Complete seu pedido</TitleText>
+      <TitleText size="xs" color="subtitle">
+        Complete seu pedido
+      </TitleText>
       <FormSectionContainer>
         <SectionTitle
           icon={<MapPinLine color={colors['brand-yellow-dark']} size={22} />}
