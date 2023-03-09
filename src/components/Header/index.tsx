@@ -14,9 +14,11 @@ export function Header() {
             <MapPin size={24} weight="fill" />
             Location, UF
           </HeaderButton>
-          <HeaderButton variant="orange">
-            <ShoppingCart size={24} weight="fill" />
-          </HeaderButton>
+          <NavLink to="/completeOrder">
+            <HeaderButton variant="orange">
+              <ShoppingCart size={24} weight="fill" />
+            </HeaderButton>
+          </NavLink>
         </HeaderButtonsContainer>
         {/* <nav>
           <NavLink to="/" title="Location" className={'location'}>
