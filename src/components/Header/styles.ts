@@ -65,10 +65,7 @@ export const HeaderButton = styled.button<HeaderButtonProps>`
     color: ${(props) => props.theme[`${variant}-700`]};
 
     span {
-      /* background: ${({ theme }) => theme.colors[`brand-${variant}-dark`]}; */
-      brand-yellow-dark
-      background: red;
-      background:${(props) => props.theme[`${variant}-700`]};
+      background: ${(props) => props.theme[`${variant}-700`]};
     }
 
     transition: 0.5s;
