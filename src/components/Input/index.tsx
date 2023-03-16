@@ -10,7 +10,6 @@ type InputProps = InputHTMLAttributes<HTMLInputElement> & {
 // eslint-disable-next-line react/display-name
 export const Input = forwardRef<HTMLInputElement, InputProps>(
   ({ error, className, rightText, ...props }, ref) => {
-    console.log('error', error)
     return (
       <InputWrapper className={className}>
         <InputContainer hasError={!!error}>
