@@ -60,7 +60,7 @@ export function CartContextProvider({ children }: CartContextProviderProps) {
   ) {
     const newCart = produce(cartItems, (draft) => {
       const coffeeExistsInCart = findCoffeeOnCart(cartItems, cartItemId)
-      if (coffeeExistsInCart > 0) {
+      if (coffeeExistsInCart >= 0) {
         const item = draft[coffeeExistsInCart]
         draft[coffeeExistsInCart].quantity =
           type === 'increase' ? item.quantity + 1 : item.quantity - 1
