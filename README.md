@@ -3,7 +3,7 @@ Projeto realizado no terceiro desafio da trilha React do curso Ignite na Rockets
 
 Onde foram aplicados conceitos do React como componentes, uso de contexto, hooks, FormProvider;
 
-[<img src='./tela.gif' alt='git da tela da aplicação Coffee Delivery'>]
+<img src='./tela.gif' alt='git da tela da aplicação Coffee Delivery'>
 
 ## Tecnologias usadas
   - React.js
@@ -32,4 +32,5 @@ yarn
 yarn dev
 ```
 - Acesse no navegador o endereço indicado no terminal
-[<img src='./endereco.png' alt='Imagem do terminal indicando endereço a ser acessado no navegador'>]
+
+<img src='./endereco.png' alt='Imagem do terminal indicando endereço a ser acessado no navegador'>
