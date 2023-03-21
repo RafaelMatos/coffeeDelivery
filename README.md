@@ -1,5 +1,6 @@
 # Coffee Delivery☕
 Projeto realizado no terceiro desafio da trilha React do curso Ignite na Rocketseat🚀
+
 Onde foram aplicados conceitos do React como componentes, uso de contexto, hooks, FormProvider;
 
 [<img src='./tela.gif' alt='git da tela da aplicação Coffee Delivery'>]
