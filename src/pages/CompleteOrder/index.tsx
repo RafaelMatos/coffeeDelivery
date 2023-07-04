@@ -11,7 +11,7 @@ import { useCart } from '../../hooks/useCart'
 enum PaymentMethods {
   credit = 'credit',
   debit = 'debit',
-  money = 'money',
+  cash = 'cash',
 }
 
 const confirmeOrderFormValidationSchema = zod.object({

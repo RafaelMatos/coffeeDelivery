@@ -70,7 +70,9 @@ export function OrderConfirmedPage() {
                 <RegularText>
                   Pagamento na entrega
                   <br />
-                  <strong>{paymentMethods[state.paymentMethod].label}</strong>
+                  <strong>
+                    {paymentMethods[state.paymentMethod].label as string}
+                  </strong>
                 </RegularText>
               }
             ></InfoWithIcon>
