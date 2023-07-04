@@ -5,7 +5,7 @@ Onde foram aplicados conceitos do React como componentes, uso de contexto, hooks
 
 <img src='./tela.gif' alt='git da tela da aplicação Coffee Delivery'>
 
-## Tecnologias usadas
+## Tecnologias usadas ⚙
   - React.js
   - Typescript
   - Styled Components
